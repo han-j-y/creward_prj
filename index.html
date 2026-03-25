@@ -315,14 +315,15 @@
 
 
 <!-- Teaser video-->
-<section class="hero teaser">
+<section class="creward teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
+      <!--video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata"-->
+      <image>
         <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
+        <source src="static/images/carousel1.jpg" type="image/jpg">
+      </image>
       <!-- TODO: Replace with your video description -->
       <h2 class="subtitle has-text-centered">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
@@ -342,7 +343,7 @@
           <!-- TODO: Replace with your paper abstract -->
           <p>
             Creativity is a complex phenomenon. When it comes to representing and assessing creativity, treating it as a single undifferentiated quantity would appear naive and underwhelming.
-In this work, we learn the <em>first type-specific creativity reward model</em>, coined CREward, which spans three creativity ``axes,'' <it>geometry</it>, <it>material</it>, and <it>texture</it>, to allow us to view creativity through the lens of the image formation pipeline.
+In this work, we learn the <em>first type-specific creativity reward model</em>, coined CREward, which spans three creativity "axes," <i>geometry</i>, <i>material</i>, and <i>texture</i>, to allow us to view creativity through the lens of the image formation pipeline.
 To build our reward model, we first conduct a human benchmark evaluation to capture human perception of creativity for each type across various creative images. We then analyze the correlation between human judgments and predictions by large vision-language models (LVLMs), confirming that LVLMs exhibit strong alignment with human perception. Building on this observation, we collect LVLM-generated labels to train our CREward model that is applicable to both evaluation and generation of creative images. We explore three applications of CREward: creativity assessment, explainable creativity, and creative sample acquisition for both human design inspiration and guiding creative generation through low-rank adaptation.
           </p>
         </div>
